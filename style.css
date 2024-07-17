@@ -6242,7 +6242,6 @@ ul.achivement li:first-child {
   content: "";
   height: 50px;
   width: 100%;
-  background: #ecf6fa;
   z-index: -1;
 }
 

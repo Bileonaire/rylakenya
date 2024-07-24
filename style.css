@@ -5880,7 +5880,7 @@ ul.achivement li:first-child {
 }
 
 .clients-area .client-items .partner-box .item img {
-  height: 45px;
+  /* height: 45px; */
   width: auto;
 }
 

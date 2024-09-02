@@ -29,83 +29,95 @@
     <link href="assets/css/responsive.css" rel="stylesheet" />
   </head>
 
-  <body class="blue">
+  <body>
+    <!-- Header
+    ============================================= -->
     <header id="home">
       <!-- Start Navigation -->
       <nav
-        class="navbar navbar-default navbar-fixed white no-background bootsnav"
+        class="navbar navbar-default navbar-fixed dark no-background bootsnav"
       >
         <div class="container-full">
-          <!-- Start Atribute Navigation -->
           <div class="attr-nav">
             <ul>
-              <li class="side-menu"></li>
+              <li class="side-menu">
+                <a href="#">
+                  <span class="bar-1"></span>
+                  <span class="bar-2"></span>
+                  <span class="bar-3"></span>
+                </a>
+              </li>
             </ul>
           </div>
           <!-- End Atribute Navigation -->
 
           <!-- Start Header Navigation -->
           <div class="navbar-header">
-            <button
-              type="button"
-              class="navbar-toggle"
-              data-toggle="collapse"
-              data-target="#navbar-menu"
-            >
-              <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand" href="/">
-              <img
-                src="assets/img/rylalogo.png"
-                class="logo logo-display"
-                alt="Logo"
-              />
-              <img
-                src="assets/img/rylalogo.png"
-                class="logo logo-scrolled"
-                alt="Logo"
-              />
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/rylalogo.png" class="logo" alt="Logo" />
             </a>
           </div>
+          <!-- End Header Navigation -->
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbar-menu">
-            <ul
-              class="nav navbar-nav navbar-right"
-              data-in="fadeInDown"
-              data-out="fadeOutUp"
-            >
-              <li class="dropdown">
-                <a href="#register" class="active">Register Now</a>
-              </li>
-            </ul>
-          </div>
           <!-- /.navbar-collapse -->
         </div>
 
-        <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul
-            class="nav navbar-nav navbar-right"
-            data-in="fadeInDown"
-            data-out="fadeOutUp"
-          >
-            <div class="attr-nav">
+        <!-- Start Side Menu -->
+        <div class="side">
+          <a href="#" class="close-side"><i class="icon_close"></i></a>
+          <div class="widget">
+            <img src="assets/img/rylalogo.png" alt="Logo" />
+            <p>
+              RYLA Kenya is a transformative leadership program designed to
+              empower young leaders. Our mission is to inspire, educate, and
+              equip participants with the skills and knowledge necessary to make
+              a positive impact in their communities and beyond.
+            </p>
+          </div>
+          <div class="widget address">
+            <div>
               <ul>
-                <li class="menu">
-                  <!-- open in blank page -->
-                  <a href="#register"
-                    ><i class="fal fa-book"></i> Register Now</a
-                  >
+                <li>
+                  <div class="content">
+                    <p>RYLA KENYA</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content">
+                    <p>Email</p>
+                    <strong>ryla.kenya@rotaractdistrict9212.org</strong>
+                  </div>
+                </li>
+                <li>
+                  <div class="content">
+                    <p>Contact</p>
+                    <strong>+254 796 219966</strong>
+                  </div>
                 </li>
               </ul>
             </div>
-          </ul>
+          </div>
+
+          <a href="#register" class="btn btn-theme effect btn-md rounded-pill">
+            Register For RYLA
+          </a>
+          <br />
+          <br />
+
+          <div class="widget social">
+            <ul class="link">
+              <li>
+                <a href="https://www.instagram.com/ryla_kenya/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- /.navbar-collapse -->
+        <!-- End Side Menu -->
       </nav>
       <!-- End Navigation -->
     </header>
-    <!-- End Header -->
 
     <!-- Start Banner
     ============================================= -->
@@ -293,12 +305,20 @@
                   Awards. The programs are set to take part regionally on the
                   following listed dates:<br />
 
-                  <br /><strong>Coastal Region: 24th August</strong>
+                  <br /><strong><s>Coastal Region: 24th August</s></strong>
                   <br /><strong> Mount Kenya Region : 7th September</strong>
                   <br />
                   <strong>Nakuru Region : 7th September</strong>
                   <br /><strong>Western Region: 21st September</strong>
                   <br /><strong>Nairobi Region : 5th October</strong>
+                  <br />
+                  <br />
+                  <a
+                    href="mini-ryla-nairobi.html"
+                    class="btn btn-theme effect btn-md rounded-pill"
+                  >
+                    Learn More About Mini RYLA Nairobi
+                  </a>
                 </p>
               </div>
             </div>
